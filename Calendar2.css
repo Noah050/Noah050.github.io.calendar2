@@ -1,0 +1,53 @@
+.calendar-body {
+    display: grid;
+    background-color: rgb(219, 219, 219);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+body {
+    background-image: url(Images/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calendar-weekDays {
+    display: grid;
+    padding: 1%;
+    grid-template-columns: repeat(7,1fr);
+    color: darkslategray;
+    column-gap: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.calendar-monthDays {
+    display: grid;
+    padding: 1%;
+    grid-template-columns: repeat(7,1fr);
+    color: darkslategray;
+    column-gap: 4%;
+    row-gap: 2%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.monthName {
+    background-color: cyan;
+    color: blue;
+    padding: 0;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 5%;
+    margin-bottom: -2%;
+    text-align: center;
+}
+
+.next-date, .prev-date {
+    color: rgb(168, 168, 168);
+}
